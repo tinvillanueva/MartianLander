@@ -24,10 +24,6 @@ public class GameActivity extends Activity implements View.OnTouchListener {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.game_screen);
 
-//        Display display = getWindowManager().getDefaultDisplay();
-//        DisplayMetrics outMetrics = new DisplayMetrics();
-//        display.getMetrics(outMetrics);
-
         gameView = (GameView) findViewById(R.id.gameView);
 
         leftThruster = (ImageButton) findViewById(R.id.btnLeftThruster);
